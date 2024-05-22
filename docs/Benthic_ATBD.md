@@ -1,10 +1,10 @@
-# SBG VSWIR Terrestrial Vegetation Equivalent Water Thickness Product - Algorithm Theoretical Basis Document (ATBD)**
+# SBG VSWIR Aquatic Benthic Fractional Cover Product - Algorithm Theoretical Basis Document (ATBD)**
 
 *Kelly Luis**<sup>1</sup>
 
 <sup>1</sup>Jet Propulsion Laboratory, California Institute of Technology
 
-Corresponding author: K. Dana Chadwick (dana.chadwick@jpl.nasa.gov)
+Corresponding author: Kelly Luis (kelly.m.luis@jpl.nasa.gov)
 
 **Key Points:**
 
