@@ -2,6 +2,8 @@
 
 Kelly Luis¹, Christine Lee¹, David R. Thompson¹, Philip G. Brodrick¹, Niklas Bohn¹, Regina Eckert¹, Robert O. Green¹, K. Dana Chadwick¹, others (TBD)
 
+*Kelly Luis**<sup>1</sup>
+
 <sup>1</sup>Jet Propulsion Laboratory, California Institute of Technology
 
 Corresponding author: Kelly Luis (kelly.m.luis@jpl.nasa.gov)
@@ -21,8 +23,8 @@ Corresponding author: Kelly Luis (kelly.m.luis@jpl.nasa.gov)
 The SBG VSWIR benthic fractional cover algorithm retrieves coral, sand, algae, and seagrass fractional cover from shallow benthic ecosystems. Bayesian optimization retrieves the bathymetry, benthic reflectance, and inherent optical properties from remote sensing reflectance. For a pixel where bathymetry is less than five meters, a spectral unmixing algorithm references a benthic spectral library to derive benthic fractional cover estimates for coral, sand, algae, and seagrass. 
 
 ## Plain Language Summary
-
 Shallow benthic ecosystems are biodiversity hotspots and providing an array of critical ecosystems services. Understanding large-scale shifts in the composition of these habitats is critical for preserving and protecting these ecosystems and their numerous ecosystem services and benefits. Through modeling water column scattering and absorption processes in the visible light range, bottom substrate type can be identified in shallow water aquatic ecosystems and ancillary information such as bathymetry and water quality information can be retrieved along the way
+
 ### Keywords: imaging spectroscopy, hyperspectral imaging, coral reefs 
 
 ## 1 Version Description
@@ -77,6 +79,8 @@ The focus on the L2+ benthic fractional cover product is focused on the identifi
 | Algae    | Algae Fractional Cover    |   |
 | Sand     | Sand Fractional Cover     |   |
 | Seagrass | Seagrass Fractional Cover |   |
+
+### 4.4 Algorithm Output Variables
 
 ## 5 Algorithm Usage Constraints
 

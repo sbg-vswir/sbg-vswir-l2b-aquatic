@@ -2,6 +2,8 @@
 
 Kelly Luis¹, Christine Lee¹, David R. Thompson¹, Philip G. Brodrick¹, Niklas Bohn¹, Regina Eckert¹, Robert O. Green¹, K. Dana Chadwick¹, others (TBD)
 
+*Kelly Luis**<sup>1</sup>
+
 <sup>1</sup>Jet Propulsion Laboratory, California Institute of Technology
 
 Corresponding author: Kelly Luis (kelly.m.luis@jpl.nasa.gov)
@@ -15,7 +17,6 @@ Corresponding author: Kelly Luis (kelly.m.luis@jpl.nasa.gov)
 **DOI:** TBD
 
 ## Abstract
-
 This ATBD retrieves chlorophyll concentration and spectral inherent optical properties (IOPs) using a modular structure for deriving aquatic biogeochemistry products in inland, nearshore, open ocean waters. The derived products include chlorophyll a concentration and phytoplankton absorption coefficient, aph(λ) [units: m-1]. For inland and nearshore waters, the Aquaverse environment (Pahlevan et al. 2021, etc.) and the Generalized Inherent Optical Property-Default Configuration (GIOP-DC) is used for open ocean waters (Werdell et al. 2013).  
 
 ## Plain Language Summary
@@ -28,11 +29,20 @@ Water quality is a measure of suitability of water based on its physical, biolog
 ## 1 Version Description
 
 This is Version 1.0 of the SBG-VSWIR Aquatic Biogeochemistry algorithm. It builds on the lineage of ocean color algorithms from the Ocean Biology Processing Group (OBPG). 
+## Plain Language Summary
+
+### Keywords: 
+
+## 1 Version Description
+
+This is Version 1.0 of the SBG VSWIR a
+
 ## 2 Introduction
 
 Following on recommendations by the National Academies of Science, Engineering and Medicine in their 2017 Decadal Survey on Earth Sciences, the National Aeronautics and Space Administration (NASA) selected the Surface Biology and Geology (SBG) mission for implementation as part of its Earth System Observatory (ESO).  SBG in particular aims to measure properties of the Earth’s surface composition and ecology.  It is comprised of two platforms: a wide-swath thermal infrared instrument on a free-flying spacecraft in a polar orbit with an afternoon equatorial crossing time; and a separate spacecraft carrying a wide-swath solar reflectance imaging spectrometer operating in the Visible Shortwave Infrared (VSWIR), with a morning equatorial crossing time.  SBG-VSWIR will measure the solar reflected range at approximately 380-2500 nm at 10 nm spectral sampling, over a 180 km swath with 30 m spatial sampling.  This measurement enables repeat coverage of any location on Earth every 16 days.  The visible-shortwave infrared range is sensitive to diverse physical processes in the Earth’s surface and atmosphere (Cawse-Nicholson 2021). The spectral, spatial, and radiometric resolutions of the SBG VSWIR instrument will enable Earth-system-scale measurements of aquatic ecosystems, including biogeochemistry products across inland, nearshore coastal, and open ocean ecosystems.  
 
 Thus, this algorithm theoretical basis document describes the algorithm process used to derive chlorophyll and inherent optical properties within the L2+ Aquatic Biogeochemistry and Composition section of the SBG-VSWIR aquatic workflow (Figure 1). 
+
 
 ## 3 Context/Background
 
@@ -41,6 +51,9 @@ From 1978-1986, the Coastal Zone Color Scanner (CZCS) was the first satellite in
 
 ### 3.2 Additional Information
 With the launch of PACE, NASA’s first hyperspectral satellite dedicated ocean color observations, in February 2024, advancements in imaging spectroscopy or hyperspectral algorithms are expected to abound in the upcoming years. For that reason, this ATBD version relies on heritage and open-source algorithms that have been based on a combination of multispectral and spectroscopic and hyperspectral algorithms. 
+
+### 3.2 Additional Information
+
 ## 4 Algorithm Description
 
 ### 4.1 Scientific Theory
@@ -63,6 +76,9 @@ With the launch of PACE, NASA’s first hyperspectral satellite dedicated ocean 
 |---------|-------------------------------------------|--------|
 | chlor_a | Chlorophyll a                             | mg m⁻³ |
 | aph     | Phytoplankton absorption coefficient     | 1/m    |
+
+=======
+### 4.4 Algorithm Output Variables
 
 ## 5 Algorithm Usage Constraints
 
