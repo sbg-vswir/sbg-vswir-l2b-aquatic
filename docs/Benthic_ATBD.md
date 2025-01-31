@@ -1,4 +1,6 @@
-# SBG VSWIR Aquatic Benthic Fractional Cover Product - Algorithm Theoretical Basis Document (ATBD)**
+# SBG VSWIR Benthic Fractional Cover - Algorithm Theoretical Basis Document (ATBD)**
+
+Kelly Luis¹, Christine Lee¹, David R. Thompson¹, Philip G. Brodrick¹, Niklas Bohn¹, Regina Eckert¹, Robert O. Green¹, K. Dana Chadwick¹, others (TBD)
 
 *Kelly Luis**<sup>1</sup>
 
@@ -7,6 +9,8 @@
 Corresponding author: Kelly Luis (kelly.m.luis@jpl.nasa.gov)
 
 **Key Points:**
+- Benthic fractional cover types include coral, algae, sand, and seagrass.  
+- Intermediary products developed include bathymetry, inherent optical properties, and benthic reflectance.  
 
 **Version:** 1.0
 
@@ -19,8 +23,7 @@ Corresponding author: Kelly Luis (kelly.m.luis@jpl.nasa.gov)
 The SBG VSWIR benthic fractional cover algorithm retrieves coral, sand, algae, and seagrass fractional cover from shallow benthic ecosystems. Bayesian optimization retrieves the bathymetry, benthic reflectance, and inherent optical properties from remote sensing reflectance. For a pixel where bathymetry is less than five meters, a spectral unmixing algorithm references a benthic spectral library to derive benthic fractional cover estimates for coral, sand, algae, and seagrass. 
 
 ## Plain Language Summary
-
-Shallow benthic ecosystems are biodiversity hotspots and providing an array of critical ecosystems services. Understanding large-scale shifts in the composition of these habitats is critical for preserving and protecting these ecosystems and their numerous ecosystem services and benefits. Through modeling water column scattering and absorption processes in the visible light range, bottom substrate type can be identified in shallow water aquatic ecosystems and ancillary information such as bathymetry and water quality information can be retrieved along the way.
+Shallow benthic ecosystems are biodiversity hotspots and providing an array of critical ecosystems services. Understanding large-scale shifts in the composition of these habitats is critical for preserving and protecting these ecosystems and their numerous ecosystem services and benefits. Through modeling water column scattering and absorption processes in the visible light range, bottom substrate type can be identified in shallow water aquatic ecosystems and ancillary information such as bathymetry and water quality information can be retrieved along the way
 
 ### Keywords: imaging spectroscopy, hyperspectral imaging, coral reefs 
 
@@ -63,6 +66,19 @@ The focus on the L2+ benthic fractional cover product is focused on the identifi
 #### 4.2.1 Mathematical theory assumptions
 
 ### 4.3 Algorithm Input Variables
+
+| Name | Long name                     | Unit  |
+|------|--------------------------------|-------|
+| Rrs  | Remote Sensing Reflectance    | sr⁻¹  |
+
+### 4.4 Algorithm Output Variables
+
+| Name     | Long name                 | Unit |
+|----------|---------------------------|---|
+| Coral    | Coral Fractinonal Cover   |   |
+| Algae    | Algae Fractional Cover    |   |
+| Sand     | Sand Fractional Cover     |   |
+| Seagrass | Seagrass Fractional Cover |   |
 
 ### 4.4 Algorithm Output Variables
 
